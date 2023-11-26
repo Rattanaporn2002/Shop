@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>New Green Home</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+
+    <!-- Custom Styles -->
+    <style>
+        body 
+        {
+            font-family: 'Itim', cursive;
+            background-color: #f8f9fa;
+            color: #343a40;
+        }
+
+        .navbar {
+            background-color: #28a745;
+        }
+
+        .jumbotron {
+            background-color: #17a2b8;
+            color: #ffffff;
+        }
+
+        .card {
+            margin-bottom: 20px;
+        }
+
+        .form-label {
+            font-weight: bold;
+        }
+        @media (max-width: 768px) {
+    /* ปรับแต่งสไตล์ที่ต้องการในหน้าจอที่แคบ */
+    .carousel-img-small {
+        /* ปรับขนาดรูปภาพใน Carousel สำหรับหน้าจอที่แคบ */
+        max-height: 200px;
+    }
+}
+        
+        /* เพิ่มสไตล์ที่คุณกำหนดเองที่นี่ */
+
+    </style>
+    
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <i class="h3 bi bi-tree"></i>
+            <a class="navbar-brand" href="#">New Green Home</a>
+            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#" aria-current="page">Home <span
+                                class="visually-hidden">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+                <form class="d-flex my-2 my-lg-0">
+                    <input class="form-control me-sm-2" type="text" placeholder="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+        <!-- ส่วนหัว -->
+        <header class="jumbotron text-center"><link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Itim:wght@400;700&display=swap" rel="stylesheet">
+            <h1>Welcome to New Green Home</h1>
+            <p>สำรวจโลกแห่งสิ่งมหัศจรรย์สีเขียวสำหรับบ้านของคุณ</p>
+        </header>
+        
+    <!-- Carousel Section -->
+<div id="carouselExample" class="carousel slide mt-4" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="https://s359.kapook.com/pagebuilder/a6b582d6-510d-4bd8-8220-bf2f770a34ec.jpg"
+                 class="d-block w-100 img-fluid carousel-img-small" alt="Slide 1">
+        </div>
+        <div class="carousel-item">
+            <img src="https://s359.kapook.com/pagebuilder/c842ef48-ecb1-4330-9e88-94e11cc1cda4.jpg"
+                class="d-block w-100 img-fluid" alt="Slide 2">
+        </div>
+        <div class="carousel-item">
+            <img src="https://s359.kapook.com/pagebuilder/601bde7f-3773-403e-b63e-2eca808cf022.jpg"
+                class="d-block w-100 img-fluid" alt="Slide 3">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+<div class="mb-3 d-flex justify-content-center">
+    <a href="#" class="text-dark me-2"><i class="bi bi-facebook"></i></a>
+    <a href="#" class="text-dark me-2"><i class="bi bi-twitter"></i></a>
+    <a href="#" class="text-dark me-2"><i class="bi bi-instagram"></i></a>
+</div>
+
+
+
+    <div class="container mt-4">
+        <div class="row row-cols-lg-4 row-cols-md-2 row-cols-3 row-cols-1">
+            <!-- Example plant cards -->
+            <div class="col">
+                <div class="card">
+                    <img src="https://s359.kapook.com//pagebuilder/8c047dde-a9f8-43f4-8451-990753c20987.jpg" class="card-img-top" alt="Plant 1">
+                    <div class="card-body">
+                        <h5 class="card-title text-center"><i class="bi bi-bag-heart"></i> เดซี่ (Daisy)</h5>
+                        <p class="card-text">มีถิ่นกำเนิดในเม็กซิโก รวมถึงบริเวณรัฐเท็กซัส สหรัฐอเมริกา เป็นไม้ดอกอายุสั้น ต้นเป็นพุ่มสูงประมาณ 30 เซนติเมตร </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="https://s359.kapook.com//pagebuilder/0c651127-d7cc-484c-875f-582cec607c2a.jpg" class="card-img-top" alt="Plant 2">
+                    <div class="card-body">
+                        <h5 class="card-title text-center"><i class="bi bi-bag-heart-fill"></i> ไลแลค (Lilac)</h5>
+                        <p class="card-text">มีถิ่นกำเนิดในยุโรป เป็นไม้พุ่ม มีความสูงได้ถึง 10 เมตร ใบสีเขียวรูปหัวใจ ออกดอกเป็นช่อ แต่ละช่อมีดอกแน่นมาก</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="https://s359.kapook.com//pagebuilder/c842ef48-ecb1-4330-9e88-94e11cc1cda4.jpg" class="card-img-top" alt="Plant 3">
+                    <div class="card-body">
+                        <h5 class="card-title text-center"><i class="bi bi-basket2"></i> แพงพวยแคระ (Madagasgar periwinkle)</h5>
+                        <p class="card-text">เป็นไม้ล้มลุกสูงได้ถึง 80 เซนติเมตร ใบสีเขียวเป็นใบเดี่ยวเรียงสลับ รูปรีปลายติ่งแหลม เส้นกลางใบสีขาว ดอกสีม่วงอ่อน</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="https://s359.kapook.com//pagebuilder/9076e6ac-a85f-45ae-bfce-1e13b519bace.jpg" class="card-img-top" alt="Plant 4">
+                    <div class="card-body">
+                        <h5 class="card-title text-center"><i class="bi bi-basket2-fill"></i> ดอกเมย์เมียว 
+                            (Vaccaria Pyramidata) </h5>
+                        <p class="card-text">มีถิ่นกำเนิดอยู่ในยุโรป ใบเป็นใบเดี่ยว ปลายใบแหลม ก้านยาว กลีบดอก 5 กลีบ มีทั้งสีขาวและชมพู  </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-4">
+            <h3><i class="bi bi-chat-square-heart"></i> Newsletter Signup</h3>
+            <form action="">
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="occupation" class="form-label">ลูกค้า</label>
+                    <select name="occupation" id="occupation" class="form-select" required>
+                        <option value="customer">ลูกค้า</option>
+                        <option value="employee">พนักงาน</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="address" class="form-label">Address</label>
+                    <textarea class="form-control" id="address" name="address" rows="5" required></textarea>
+                </div>
+
+                <button class="btn btn-info" type="submit">Subscribe</button>
+                <button class="btn btn-danger" type="reset">Cancel</button>
+            </form>
+        </div>
+
+    </div>
+    <!-- Contact Section -->
+<div class="container mt-4 address-section">
+    <h3 class="mb-3"><i class="bi bi-geo-alt"></i> Contact Us</h3>
+    <address>
+        <strong>New Green Home</strong><br>
+        30 หมู่.4 ต.มาบแค อ.เมือง จ.นครปฐม<br>
+        <i class="bi bi-phone"></i> Phone: 098-862-1788<br>
+        <i class="bi bi-envelope"></i> Email: rattanaporm1812.n@gmail.com
+    </address>
+</div>
+
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+        crossorigin="anonymous"></script>
+
+        <footer class="bg-dark text-light text-center p-3">
+            <div class="container">
+                <p class="mb-0">นโยบายความเป็นส่วนตัว | เงื่อนไขการให้บริการ | ติดต่อเรา</p>
+            </div>
+        </footer>
+        
+</body>
+
+</html>
